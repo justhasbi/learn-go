@@ -22,4 +22,37 @@ func main() {
 	var name string = "hasbi"
 	name = "hasbi shuhada"
 	fmt.Println(name)
+
+	firstName := "shuhada"
+	fmt.Println(firstName)
+
+	firstName = "gunawan"
+	fmt.Println(firstName)
+	// declare multiple variable
+	var (
+		age = 20
+		address = "tegal"
+	)
+
+	fmt.Println(age)
+	fmt.Println(address)
+
+	// Constant
+	const (
+		APPLICATIONNAME = "Learn GO"
+		APPLICATION = "GOLANG"
+	)
+	// cannot assign to constant
+	//APPLICATIONNAME = "coba"
+	
+	fmt.Println(APPLICATIONNAME)
+	fmt.Println(APPLICATION)
+
+
+	Conversion()
+	TypeDeclaration()
+	MathematicalOperations()
+	ComparationOperator()
+	ArrayDataType()
+	SliceDataType()
 }
