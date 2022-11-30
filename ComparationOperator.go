@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func ComparationOperator() {
+func ComparationOperation() {
 	var name1 = "hasbi"
 	var name2 = "hasbi"
 

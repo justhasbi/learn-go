@@ -2,14 +2,14 @@ package main
 
 import "fmt"
 
-func main() {
+func Variable() {
 	fmt.Println("Hello World")
-	
+
 	// golang data type
 	fmt.Println("satu = ", 1)
 	fmt.Println("dua = ", 2)
 	fmt.Println("tiga koma lima = ", 3.5)
-	
+
 	fmt.Println("False = ", false)
 	fmt.Println("True = ", true)
 
@@ -30,7 +30,7 @@ func main() {
 	fmt.Println(firstName)
 	// declare multiple variable
 	var (
-		age = 20
+		age     = 20
 		address = "tegal"
 	)
 
@@ -40,19 +40,11 @@ func main() {
 	// Constant
 	const (
 		APPLICATIONNAME = "Learn GO"
-		APPLICATION = "GOLANG"
+		APPLICATION     = "GOLANG"
 	)
 	// cannot assign to constant
 	//APPLICATIONNAME = "coba"
-	
+
 	fmt.Println(APPLICATIONNAME)
 	fmt.Println(APPLICATION)
-
-
-	Conversion()
-	TypeDeclaration()
-	MathematicalOperations()
-	ComparationOperator()
-	ArrayDataType()
-	SliceDataType()
 }
